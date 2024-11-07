@@ -28,6 +28,17 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
      - For building an interactive dashboard to visualize key insights, trends, and segments.
  - Gitup- Github account[Download Here](https://www.github.com)
      - for portfolio building
+     - 
+  
+ ## Data Cleaning and Preparation:
+---
+- Duplicates remover:
+   - Check for duplicate rows in the dataset, especially in CustomerID or subscription records, and remove any redundancies.
+   - Standardize Data:
+   - Ensure consistency in data formats, such as dates (SubscriptionStart, SubscriptionEnd),
+   - I checked for uniformity in categorical fields like SubscriptionType and Region.
+   - Data Transformation: Calculate new fields, such as subscription duration   .
+   - Active Status: Create an indicator for active subscriptions based on SubscriptionEnd and Canceled columns.
 
 
 
