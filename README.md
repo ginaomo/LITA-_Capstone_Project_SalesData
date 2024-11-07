@@ -136,12 +136,21 @@ where Year(orderdate)= Year(getdate())
 group by Month(orderdate)
 order by Month(orderdate)
 
---6.TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
+
+---6.TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
 
 Select top 5 Customer_Id, Sum(Quantity*UnitPrice) as Total_Purchase_Amount
 from [dbo].[SalesData_PS]
 group by Customer_Id
 order by Total_Purchase_Amount desc
+
+|Customer_Id|Total_Purchase_Amount|
+|-----------|---------------------|
+|Cus1431    |4235               |
+|Cus1495    |4235               |
+|Cus1005    |4235               |
+|Cus1115    |4235               |
+|Cus1302    |4235               |
 
 ---7. % (PERCENTAGE) OF TOTAL SALES CONTRIBUTED BY EACH REGION---
 
@@ -153,16 +162,34 @@ as Percentage_of_Totalsales
 From [dbo].[SalesData_PS]
 Group by Region
 Order by percentage_of_totalsales desc
+```
+
+|Total_Sales|Region|Percentage_of_Totalsales|
+|-----------|------|------------------------|
+|#927,820   |South	|44%                     |
+|#485925    |	East |23%                     |
+|#387,000	  |North |18%                     |
+|#300,345	  |West  |14%                     |
 
 
---8 PRODUCT WITH NO SALES IN LAST QUARTER--
+
+```
+---8 PRODUCT WITH NO SALES IN LAST QUARTER---
 Select distinct product
 From [dbo].[SalesData_PS]
 Where product Not In(
 Select product
 From [dbo].[SalesData_PS]
 Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
-```
+
+Product
+Gloves
+Jacket
+Shirt
+Shoes
+Socks
+
+
 
 
 
