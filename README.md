@@ -7,7 +7,22 @@ This where i want to analysis one of the projects for the completion of my Data 
  
 ## Project Overview
 ---
-This project is geared towards analyzing  the sales performance of a company by exploring sales data to uncover insights such as top-selling products, regional performance, and monthly sales trends. The primary objective is to create an interactive Power BI dashboard that highlights key findings, enabling data-driven decision-making to improve sales strategies. The project involves data exploration, preparation, and analysis using Excel and SQL, with final visualizations in Power BI
+This project is geared towards analyzing  the sales performance of a company by exploring sales data to uncover insights such as top-selling products, regional performance, and monthly sales trends. The primary objective is to create an interactive Power BI dashboard that highlights key findings, enabling data-driven decision-making to improve sales strategies. The project involves data exploration, preparation, and analysis using Excel and SQL, with final visualizations in Power BI- Excel Microsoft Excel[Download Here](https://www.microsoft.com)
+
+
+
+## Tools used:
+      - For initial data exploration, 
+      - creating pivot tables, 
+        and calculating summary statistics using Average and 
+- SQL -Structured query language [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+     - For data extraction and analysis through structured queries.
+- Power BI - power business intellegence:[download Here](https://power-bi-desktop.en.microsoft.com)
+     - For building an interactive dashboard to visualize key insights, trends, and segments.
+ - Gitup- Github account[Download Here](https://www.github.com)
+     - for portfolio building
+
+
 
 
 
