@@ -5,6 +5,26 @@ This where i want to analysis one of the projects for the completion of my Data 
  ## Project Title: Performance Analysis for a Company
  ---
  
+ [Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and preparation](#data-cleaning-and-preparation)
+
+[Exporatory Data Analysis](#exporatory-data-analysis)
+
+[Data Analysis and Findings](#data-analysis-and-findings)
+
+[Data Visualization](#data-visualization)
+
+[Conclusion](#conclusion)
+
+
+
+ 
+ 
 ## Project Overview
 ---
 This project is geared towards analyzing  the sales performance of a company by exploring sales data to uncover insights such as top-selling products, regional performance, and monthly sales trends. The primary objective is to create an interactive Power BI dashboard that highlights key findings, enabling data-driven decision-making to improve sales strategies. The project involves data exploration, preparation, and analysis using Excel and SQL, with final visualizations in Power BI
