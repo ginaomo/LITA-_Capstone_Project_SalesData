@@ -13,11 +13,13 @@ This where i want to analysis one of the projects for the completion of my Data 
 
 [Data Cleaning and preparation](#data-cleaning-and-preparation)
 
-[Exporatory Data Analysis](#exporatory-data-analysis)
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Data Analysis and Findings](#data-analysis-and-findings)
+[Data Analysis](#data-analysis)
 
 [Data Visualization](#data-visualization)
+
+[Findings](#finding)
 
 [Conclusion](#conclusion)
 
@@ -63,7 +65,7 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
    - Data Transformation: Calculate new fields, such as subscription duration   .
    - Active Status: Create an indicator for active subscriptions based on SubscriptionEnd and Canceled columns.
  
-  ## exploration of Data
+  ## Exploratory Data Analysis:
 
   - Retrieve the total sales for each product category. 
   - Find the number of sales transactions in each region. 
@@ -75,10 +77,6 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
   - identify products with no sales in the last quarter.
   ---
   
-
-
-
-
 
 ## Data Analysis:
 ---
@@ -164,8 +162,6 @@ Where product Not In(
 Select product
 From [dbo].[SalesData_PS]
 Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
-
-
 ```
 
 
@@ -173,6 +169,9 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
 
 
-## VISUALIZATION
+## Data Visualization
 
 ![Power bi dashboard sales data](https://github.com/user-attachments/assets/eaa18494-624c-4320-9855-6f3a7f211c77)
+
+## Findings
+---
