@@ -28,7 +28,10 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
      - For building an interactive dashboard to visualize key insights, trends, and segments.
  - Gitup- Github account[Download Here](https://www.github.com)
      - for portfolio building
-     - 
+  
+
+
+ - 
   
  ## Data Cleaning and Preparation:
 ---
@@ -39,6 +42,19 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
    - I checked for uniformity in categorical fields like SubscriptionType and Region.
    - Data Transformation: Calculate new fields, such as subscription duration   .
    - Active Status: Create an indicator for active subscriptions based on SubscriptionEnd and Canceled columns.
+ 
+  ## exploration of Data
+
+  - Retrieve the total sales for each product category. 
+  - Find the number of sales transactions in each region. 
+  - Find the highest-selling product by total sales value. 
+  - Calculate total revenue per product. 
+  - calculate monthly sales totals for the current year. 
+  - find the top 5 customers by total purchase amount. 
+  - calculate the percentage of total sales contributed by each region. 
+  - identify products with no sales in the last quarter.
+  ---
+  
 
 
 
