@@ -18,13 +18,13 @@ The primary source of this data is HR DATA.excel provided by LITA and this is an
 
 
 ## Tools Used:
-- Excel Microsoft Excel[Download Here](https://www.microsoft.com
-      - For initial data exploration, 
-      - creating pivot tables, 
-        and calculating summary statistics using Average and 
-- SQL -Structured query language [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+ - Excel Microsoft Excel[Download Here](https://www.microsoft.com
+     - For initial data exploration, 
+     - creating pivot tables, 
+       and calculating summary statistics using Average and 
+ - SQL -Structured query language [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
      - For data extraction and analysis through structured queries.
-- Power BI - power business intellegence:[download Here](https://power-bi-desktop.en.microsoft.com)
+ - Power BI - power business intellegence:[download Here](https://power-bi-desktop.en.microsoft.com)
      - For building an interactive dashboard to visualize key insights, trends, and segments.
  - Gitup- Github account[Download Here](https://www.github.com)
      - for portfolio building
