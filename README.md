@@ -93,6 +93,17 @@ from[dbo].[SalesData_PS]
 group by product
 order by TotalSales desc
 
+Product	TotalSales
+Shoes	613380
+Shirt	485600
+Hat	316195
+Gloves	296900
+Jacket	208230
+Socks	180785
+Above is summary of total Sales per Product
+
+
+
 ---2. Number of Sales transactions in each Region---
 
 Select Region, count(OrderID) as Number_of_Sales
@@ -100,11 +111,22 @@ from[dbo].[SalesData_PS]
 group by Region
 order by Number_of_Sales desc
 
+Region	Number_of_Sales
+East	2483
+North	2481
+South	2480
+West	2477
+
 ---3. The highest selling product by total sales value---
 
 select Top 1 product,sum(quantity*unitPrice) as Total_sales_Value
 from[dbo].[SalesData_PS]
 group by Product
+
+Product	Total_sales_Value
+Shoes	613380
+
+
 
 --4. Total Revenue by Product
 Select Product, Sum(quantity*unitPrice) as TotalRevenue
@@ -112,8 +134,18 @@ from[dbo].[SalesData_PS]
 group by product
 order by TotalRevenue desc
 
+Product	TotalRevenue
+Shoes	613,380
+Shirt	485,600
+Hat	316,195
+Gloves	296,900
+Jacket	208,230
+Socks	180,785
+The Product with the highest sales is Shoes at the worth of 613,380
 
---5.Total Monthly Sales for 2024(current year)
+
+
+--5.Total Monthly Sales for 2024 (current year)
 
 Select 
 Case Month(orderdate)
@@ -136,6 +168,18 @@ where Year(orderdate)= Year(getdate())
 group by Month(orderdate)
 order by Month(orderdate)
 
+Month	monthlysales
+January	198,400
+Febuary	298,800
+March   54,780
+April	 9,440
+May	 44,640
+June	 148,200
+July	 37,200
+August	174,300
+
+Monthly sales is as stated above, February has the highest performance with month sales of 298800
+
 
 ---6.TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
 
@@ -144,13 +188,13 @@ from [dbo].[SalesData_PS]
 group by Customer_Id
 order by Total_Purchase_Amount desc
 
-|Customer_Id|Total_Purchase_Amount|
-|-----------|---------------------|
-|Cus1431    |4235               |
-|Cus1495    |4235               |
-|Cus1005    |4235               |
-|Cus1115    |4235               |
-|Cus1302    |4235               |
+Customer_Id Total_Purchase_Amount
+
+Cus1431    4235               
+Cus1495    4235               
+Cus1005    4235               
+Cus1115    4235               
+Cus1302    4235               
 
 ---7. % (PERCENTAGE) OF TOTAL SALES CONTRIBUTED BY EACH REGION---
 
@@ -167,7 +211,7 @@ Order by percentage_of_totalsales desc
 |Total_Sales|Region|Percentage_of_Totalsales|
 |-----------|------|------------------------|
 |#927,820   |South	|44%                     |
-|#485925    |	East |23%                     |
+|#485925    |East |23%                     |
 |#387,000	  |North |18%                     |
 |#300,345	  |West  |14%                     |
 
