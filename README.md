@@ -11,6 +11,11 @@ This project is geared towards analyzing  the sales performance of a company by 
 
 
 ## Data Sources:
+---
+
+The primary source of this data is HR DATA.excel provided by LITA and this is an open sources data that can freely downloaded without any restriction, online such as kaggle or fred, data.gov as well as any other sources like industry report.
+
+
 
 ## Tools Used:
 - Excel Microsoft Excel[Download Here](https://www.microsoft.com
