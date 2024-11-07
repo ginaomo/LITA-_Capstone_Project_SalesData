@@ -170,8 +170,12 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
 
 ## Data Visualization
+---
 
 ![Power bi dashboard sales data](https://github.com/user-attachments/assets/eaa18494-624c-4320-9855-6f3a7f211c77)
 
 ## Findings
+---
+
+Conclusion:
 ---
