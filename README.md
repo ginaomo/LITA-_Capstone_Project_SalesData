@@ -269,21 +269,57 @@ Socks
 
 ## Findings
 ---
-Below are the discoverings gain in the analysis of the data given:
 
-- The total total sales amount is 2,101,290
 
-- There are four(4) Regions North Sounth, East and West with the following sales figures; 387,000, South 927,820 East 485,925 and West 300,345 , but the highest selling Region is South with a total sales amount of 927,820 while the Region with the least sale is West with a sales amount of 300,345
+Below is the detail findings based on the salesdata provided:
 
-- The Total quantity sold that resulted to the total sales amount is 68469
+- Total Sales: $2,101,290
 
-- The different unique product available for sales are Shirt, Shoes,Hat, socks, Jacket and Gloves the product with the highest sales is Shoes with a sales amount of 613380 also the least selling product is Socks under the review period with the sum of 	180,785
-  
--  In the last quater all the product did sell except Hat
-  
--   Month with the highest sale is February with amount 298,800
-   
--   Sounth have 44% of the total sales contribution while West have 14%
+- Total Sales Amount: $2,101,290
+
+- Total Quantity Sold: 68,469 units
+
+- Total Number of Customers: 500
+
+- Total Number of Orders (Order IDs): 20
+
+Regional Sales Breakdown:
+
+- South: $927,820 (highest-selling region, contributing 44% of total sales)
+- East: $485,925
+- North: $387,000
+- West: $300,345 (lowest-selling region, contributing 14% of total sales)
+- Total Number of Regions: 4 (North, South, East, and West)
+Product Sales Performance:
+
+- Total Number of Products: 6 (Shirt, Shoes, Hat, Socks, Jacket, and Gloves)
+- Top-Selling Product: Shoes, with $613,380 in sales
+- Lowest-Selling Product: Socks, with $180,785 in sales
+Note: All products did not sell  in the last quarter, except for Hat.
+Monthly Sales:
+
+Highest Sales Month (2023): February, with $546,300
+Highest Sales Month (2024): February, with $298,800
+Both years experienced a noticeable drop in sales in March.
+This summary captures key data points across regions, products, customers, and monthly trends, providing a comprehensive view of sales performance and customer engagement.
+
+
+
+
+
+
+
+
+
+
+
+Cha
+
+
+
+
+
+
 
 
 
