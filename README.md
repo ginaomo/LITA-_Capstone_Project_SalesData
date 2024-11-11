@@ -237,6 +237,13 @@ Socks
 
 
 
+![SALESDATA PIVOT TABLE COMBINE](https://github.com/user-attachments/assets/eec58b56-334a-4bdc-a9e2-85acdfb75758)
+
+
+
+
+
+
 
 
 
