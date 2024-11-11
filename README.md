@@ -19,9 +19,11 @@ This where i want to analysis one of the projects for the completion of my Data 
 
 [Data Visualization](#data-visualization)
 
-[Findings](#finding)
+[Findings](#findings)
 
-[Conclusion](#conclusion)
+[Conclusions](#conclusions)
+
+[Recommendations](#recommendations)
 
 
 
