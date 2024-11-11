@@ -273,7 +273,7 @@ Below are the discoverings gain in the analysis of the data given:
 
 - The total total sales amount is 2,101,290
 
-- There are four(4) Regions North Sounth, East and West but the highest selling Region is South with a total sales amount of 928,020 while the Region with the least sale is West with a sales amount of 300,345
+- There are four(4) Regions North Sounth, East and West with the following sales figures; 387,000, South 928,020 East 485,925 and West 300,345 , but the highest selling Region is South with a total sales amount of 928,020 while the Region with the least sale is West with a sales amount of 300,345
 
 - The Total quantity sold that resulted to the total sales amount is 68469
 
