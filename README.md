@@ -269,6 +269,24 @@ Socks
 
 ## Findings
 ---
+Below are the discovers gain in the analysis of the data given:
+
+- The total total sales amount is 2,101,290
+
+- There are four(4) Regions North Sounth, East and West but the highest selling Region is South with a total sales amount of 928,020 while the Region with the least sale is West with a sales amount of 300,345
+
+- The Total quantity sold that resulted to the total sales amount is 68469
+
+- The different unique product available for sales are Shirt, Shoes,Hat, socks, Jacket and Gloves the product with the highest sales is Shoes with a sales amount of 613380 also the least selling product is Socks under the review period with the sum of 	180,785
+  
+-  In the last quater all the product did sell except Hat
+-  
+-   Month with the highest sale is February with amount 298,800
+-   
+-   Sounth have 44% of the total sales contribution while West have 14%
+
+
+
 
 Conclusion:
 ---
