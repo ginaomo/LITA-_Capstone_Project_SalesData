@@ -244,6 +244,20 @@ Socks
 
 
 
+![CALCULATION ON EXCEL CONT](https://github.com/user-attachments/assets/7f8219c0-4b8b-4838-ad99-31138ceaff77)
+
+
+
+
+
+![CALCULATION ON EXCEL WITH FORMULA](https://github.com/user-attachments/assets/4c937735-520e-48d3-8b05-a58b16de1680)
+
+
+
+
+
+
+
 
 
 
