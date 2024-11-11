@@ -280,7 +280,7 @@ Below are the discoverings gain in the analysis of the data given:
 - The different unique product available for sales are Shirt, Shoes,Hat, socks, Jacket and Gloves the product with the highest sales is Shoes with a sales amount of 613380 also the least selling product is Socks under the review period with the sum of 	180,785
   
 -  In the last quater all the product did sell except Hat
--  
+  
 -   Month with the highest sale is February with amount 298,800
    
 -   Sounth have 44% of the total sales contribution while West have 14%
